@@ -16,12 +16,58 @@
   }
 }
 
+.esn-cyan {
+  color: #00aeef;
+}
+
+.esn-magenta {
+  color: #ec008c;
+}
+
+.esn-green {
+  color: #7ac143;
+}
+
+.esn-orange {
+  color: #f47b20;
+}
+
+.esn-darkblue {
+  color: #2e3192;
+}
+
+.esn-bg-cyan {
+  background-color: #00aeef;
+}
+
+.esn-bg-magenta {
+  background-color: #ec008c;
+}
+
+.esn-bg-green {
+  background-color: #7ac143;
+}
+
+.esn-bg-orange {
+  background-color: #f47b20;
+}
+
+.esn-bg-darkblue {
+  background-color: #2e3192;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button,
+input[type='number'] {
+  -webkit-appearance: none;
+  margin: 0;
+  -moz-appearance: textfield !important;
 }
